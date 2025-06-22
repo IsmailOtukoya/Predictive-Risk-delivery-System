@@ -86,31 +86,11 @@ c79bdf061e22288609201ec60deb42fb      0              0.13
 
 
 
----
-
-## 🚚 Solutions for Flagged Late Deliveries
-
-For orders predicted to be at risk of delay (`predicted_late = 1`), the following actions can be taken:
-
-### 1. 🔁 **Proactive Customer Notification**
-- Notify customers early about potential delays.
-- Offer discounts or incentives for delayed deliveries (e.g., store credit).
-
-### 2. 🧭 **Reroute to Faster Fulfillment Centers**
-- Use predicted risk to dynamically reroute the order to a warehouse or seller closer to the customer.
-
-### 3. ⏱️ **Upgrade Shipping Method**
-- Flagged orders can be prioritized with express shipping or third-party logistics (3PL) partners.
-
-### 4. 🛍️ **Seller Performance Monitoring**
-- Alert low-performing sellers (those in higher delivery percentiles) and recommend operational improvements or mentorship.
-
-### 5. 📦 **Smart Inventory Allocation**
-- Use prediction insights to maintain stock of frequently delayed products closer to high-risk delivery zones.
-
-### 6. 🤝 **Customer Service Integration**
-- Feed high-risk orders into customer support dashboards for faster escalation if issues arise.
-
----
-
+📦 Delivery_Performance_Analysis/
+├── Delivery_Performance_Analysis.ipynb
+├── delivery_risk_pipeline_main.joblib
+├── delivery_risk_threshold.joblib
+├── *.sql (SQL queries and preprocessing)
+├── 📊 Visuals (embedded in notebook)
+└── README.md
 
